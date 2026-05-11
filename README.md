@@ -9,10 +9,13 @@
 Анимации заданы в шаблоне кнопки через `Storyboard` и `DoubleAnimation`. При наведении кнопка плавно масштабируется, при нажатии появляется наложение `PressedOverlay`. Изменение текста дисплея дополнительно анимируется методом `AnimateDisplayTextChange`, который применяет эффект появления через прозрачность.
 
 ![Окно калькулятора](report-images/lab06-interface.jpg)
+
 Снимок 1: общий вид калькулятора с кнопками памяти.
 
 ![Работа памяти](report-images/lab06-memory.jpg)
-Снимок 2: сценарий `M+` и `MR` с отображением результата или записи в истории.
+Снимок 2: сценарий `M+` и `MR` с отображением результата или записи 
+в истории.
 
 ![Анимации и память в коде](report-images/lab06-code.jpg)
+
 Снимок 3: фрагменты `MainWindow.xaml` с `Storyboard` и `MainWindow.xaml.cs` с `ApplyMemoryOperation` и `AnimateDisplayTextChange`.
